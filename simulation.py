@@ -90,7 +90,7 @@ class Simulation:
             self.__update_strategy()
             fc = self.__count_fc()
             fc_hist.append(fc)
-            print(f"Episode:{episode}, Dr:{Dr:.1f}, Dg:{Dg:.1f}, Time: 0, Fc:{initial_fc:.3f}")
+            print(f"Episode:{episode}, Dr:{Dr:.1f}, Dg:{Dg:.1f}, Time:{t}, Fc:{fc:.3f}")
 
             # --- 収束判定 --- #
             # --- 100回以上戦略更新され、過去100回のgameで得られた強調率の平均値と次のgameでの協調率の差が十分小さくなったら終了 --- #
