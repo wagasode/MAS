@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 # --- 2次元平面で動作するAgent --- #
 # --- 2種類のAgentが相互作用する --- #
 
-TIME_LIMIT = 100
-AGENT_NUM  = 30
+TIME_LIMIT = 200
+AGENT_NUM  = 300
 SEED       = 65535
-R          = 1.0   # 近隣を規定する数値
+R          = 0.2   # 近隣を規定する数値
 DX         = 0.1
 DY         = 0.1
 
